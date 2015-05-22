@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Email only field</title>
+    <script src="script.js"></script>
+    <style>
+
+        input {
+            width: 313px;
+        }
+
+        * {
+            font-size: 25px;
+        }
+        div {
+            width: 317px;
+        }
+    </style>
+
+    <!--Refresh page every time you add different inputs-->
+</head>
+<body>
+    <form name="validation" onSubmit="return checkbae()">
+        <input type="text" name="emailcheck" id="email"><br>
+        <div id="result"></div>
+        <button type="submit">Validate</button>
+    </form>
+</body>
+</html>
